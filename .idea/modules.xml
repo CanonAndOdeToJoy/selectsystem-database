@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/selectsystem-database.iml" filepath="$PROJECT_DIR$/.idea/selectsystem-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/watchilist.iml" filepath="$PROJECT_DIR$/.idea/watchilist.iml" />
     </modules>
   </component>
 </project>
