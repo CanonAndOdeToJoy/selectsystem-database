@@ -4,10 +4,11 @@
     <p>{{ teachers|length }} Titles</p>
     <ul class="chooselist">
         {% for teacher in teachers %}
-        <li>{{ teacher.name }} - {{ teacher.title }}</li>
-        <span class="float-right">
-            <a class="detail" href="https://cs.shu.edu.cn/szdw/jsxx.htm" target="_blank" title="Click for more details">详情</a>
-        </span>
+        <li>{{ teacher.name }} - {{ teacher.title }}
+            <span class="float-right">
+                <a class="detail" href="https://cs.shu.edu.cn/szdw/jsxx.htm" target="_blank" title="Click for more details">详情</a>
+            </span>
+        </li>
         {% endfor %}
     </ul>
 {% endblock %}
