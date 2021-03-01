@@ -6,6 +6,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:xsSZD0420@localhost:3306/s
 app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
 app.config['SECRET_KEY'] = '123456'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
+app.config['FLASK_DEBUG'] = True
 db = SQLAlchemy(app)
 
 

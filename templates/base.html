@@ -16,7 +16,9 @@
     </h2>
     <nav>
         <ul>
+            <li><a href="{{ url_for('index') }}">我的</a></li>
             <li><a href="{{ url_for('index') }}">教师列表</a></li>
+            <li><a href="{{ url_for('index') }}">选择</a></li>
         </ul>
     </nav>
     {% block content %}{% endblock %}
