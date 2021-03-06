@@ -4,7 +4,7 @@
     {% block head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi,{{ stu.name }}!</title>
+    <title>Hi,{{ stu.sid }}!</title>
     <link rel="icon" href="{{ url_for('static', filename='icon1.png') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
     {% endblock %}
@@ -12,13 +12,13 @@
 <body>
     <h2>
         <img alt="Avatar" class="avatar" src="{{ url_for('static', filename='images/1.png') }}">
-        Hi,{{ stu.name }}!
+        Hi,{{ stu.sid }}!
     </h2>
     <nav>
         <ul>
-            <li><a href="{{ url_for('index') }}">我的</a></li>
+            <li><a href="{{ url_for('stuhome') }}">我的</a></li>
             <li><a href="{{ url_for('index') }}">教师列表</a></li>
-            <li><a href="{{ url_for('index') }}">选择</a></li>
+            <li><a href="{{ url_for('schoice') }}">选择</a></li>
         </ul>
     </nav>
     {% block content %}{% endblock %}
